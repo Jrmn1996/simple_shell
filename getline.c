@@ -145,7 +145,7 @@ int _getline(info_t *info, char **ptr, size_t *length)
 		_strncpy(new_p, buf + n, k - n + 1);
 
 	s += k - n;
-	i = k;
+	n = k;
 	p = new_p;
 
 	if (length)
